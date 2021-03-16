@@ -6,7 +6,7 @@
 **一个自动执行任务的工具，通过它可以实现账号自动签到，自动领取权益等功能，帮助我们轻松升级。**
 
 ## bilibili签到任务
-**实现现B站帐号的每日自动观看、分享、投币视频，获取经验，每月自动领取会员权益等功能，帮助我们轻松升级会员到Lv6并赚取电池。**
+**实现现B站帐号的每日自动观看、分享、投币视频，获取经验，每月自动领取会员权益等
 
 详细功能目录如下:
 
@@ -25,7 +25,7 @@ node index.js bilibili --cookies "b6*********4a581;"
 ```sh
 # 构建
 docker build -t auto-sign-machine:latest  -f docker/Dockerfile .
-# 运行
+# 运
 docker run \
   --name auto-sign-machine \
   -d \
